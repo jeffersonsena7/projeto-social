@@ -39,4 +39,20 @@ iframe#tela{
     width: 206px;
     height: 362px;
 }
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais > a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*deixar totalmente redondo*/
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0, 400);
+    box-sizing: border-box; /* para não balançar todos os botoes*/
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    transform: translate(-3px, -3px); /*o botao se mover passando o mouse*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .5s; /*tempo para o botão se mover*/
+}
 
