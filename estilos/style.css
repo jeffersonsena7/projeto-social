@@ -38,6 +38,7 @@ iframe#tela{
     top: 63px;
     width: 206px;
     height: 362px;
+    background-size: cover;
 }
 section#redes-sociais{
     text-align: right;
